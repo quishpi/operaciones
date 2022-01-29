@@ -19,6 +19,11 @@ public class Operaciones {
 		int suma = value1 + value2;
 		System.out.println("Suma=" + suma);
 	}
+	
+	public void restar() {
+		int resta = value1 - value2;
+		System.out.println("Resta=" + resta);
+	}
 
 	public int getValue1() {
 		return value1;

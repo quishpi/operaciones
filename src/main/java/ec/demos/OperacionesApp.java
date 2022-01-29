@@ -7,5 +7,10 @@ public class OperacionesApp {
 		operaciones.setValue1(50);
 		operaciones.setValue2(83);
 		operaciones.sumar();
+		
+		
+		operaciones.setValue1(50);
+		operaciones.setValue2(20);
+		operaciones.restar();
 	}
 }
