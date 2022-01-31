@@ -6,4 +6,9 @@ public class Calculadora extends Operaciones {
 		int result = getValue1() % getValue2();
 		System.out.println("Móludo = " + result);
 	}
+	
+	public void multiplicacion() {
+		int result = getValue1() * getValue2();
+		System.out.println("Multiplicación = " + result);
+	}
 }
