@@ -3,14 +3,19 @@ package ec.demos;
 public class OperacionesApp {
 
 	public static void main(String[] args) {
-		Operaciones operaciones=new Operaciones();
-		operaciones.setValue1(50);
-		operaciones.setValue2(83);
-		operaciones.sumar();
 		
+		Calculadora calculadora=new Calculadora();
+		calculadora.setValue1(50);
+		calculadora.setValue2(83);
+		calculadora.sumar();
 		
-		operaciones.setValue1(50);
-		operaciones.setValue2(20);
-		operaciones.restar();
+		calculadora.setValue1(50);
+		calculadora.setValue2(20);
+		calculadora.restar();
+		
+		calculadora.setValue1(25);
+		calculadora.setValue2(10);
+		calculadora.modulo();
+		
 	}
 }
