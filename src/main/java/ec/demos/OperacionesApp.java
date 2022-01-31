@@ -5,6 +5,7 @@ public class OperacionesApp {
 	public static void main(String[] args) {
 		
 		Calculadora calculadora=new Calculadora();
+		
 		calculadora.setValue1(50);
 		calculadora.setValue2(83);
 		calculadora.sumar();
